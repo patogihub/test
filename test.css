@@ -1,0 +1,38 @@
+.gradient-custom-2 {
+
+    background: #90fcfc;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #24aeee, #6736d8, #8c00ff, #5ddb2b);
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #24eec2, #36d3d8, #369add, #e91ed8);
+    }
+    
+    @media (min-width: 768px) {
+    .gradient-form {
+    height: 100vh !important;
+    }
+    }
+    @media (min-width: 769px) {
+    .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+    }
+    }
+    .gradient-custom-1 {
+
+        background: #90fcfc;
+        
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: -webkit-linear-gradient(to right,  #000000, #34015e, #6300b4);
+        
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: linear-gradient(to right, #000000, #112627, #3c637e);
+        }
+@media (min-width: 769px) {
+.gradient-custom-1 {
+            border-top-right-radius: .3rem;
+            border-bottom-right-radius: .3rem;
+}}
+

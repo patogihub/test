@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Registro</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/bootstrap.min.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='test.css'>
+</head>
+<body>
+    <section class="gradient-custom-1" > 
+        <div class="container py-5 h-100 ">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-sm-6">    
+                    <div class="card rounded-5 text-black gradient-custom-2">
+                        <div class="row g-1">
+                            <div class="col ju">
+                                <div class="card-body p-md-5 mx-md-4">
+                                    <form>
+                                        <div class="form-outline mb-4">
+                                          <input type="text" id="user" class="form-control"
+                                            placeholder="Usuario" required pattern="^[A-Za-z]+(\s[A-Za-z]+){0,2}$" />
+                                          <label class="form-label" for="user">Usuario</label>
+                                        </div>
+                                        <div class="form-outline mb-4">
+                                            <input type="email" id="email" class="form-control"
+                                              placeholder="correo electronico" />
+                                            <label class="form-label" for="email">Ingrese su correo</label>
+                                          </div>
+                      
+                                        <div class="form-outline mb-4">
+                                          <input type="password" id="passwd" class="form-control" equired
+                                          pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" minlength="8" />
+                                          <label class="form-label" for="passwd">Contraseña</label>
+                                        </div>
+                                        <div class="form-outline mb-4">
+                                            <input type="password" id="passwd" class="form-control" equired
+                                            pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" minlength="8" />
+                                            <label class="form-label" for="passwd">Repita Contraseña</label>
+                                          </div>
+                      
+                                        <div class="text-center pt-1 mb-5 pb-1">
+                                          <button class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" type="button">Enviar</button>
+                                        </div>
+                      
+                                        <div class="d-flex align-items-center justify-content-center pb-4">
+                                          <a class="btn btn-outline-warning" href="login.html">volver al login</a>
+                                        </div>
+                      
+                                      </form>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
